@@ -82,6 +82,6 @@ while True:
 section = document.sections[0]
 footer = section.footer
 p = footer.paragraphs[0]
-p.text = "CV generated using Kev Code"
+p.text = "CV generated using Kevin Code"
 
 document.save('cv.docx') # create the actual document in our repository
